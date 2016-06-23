@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #ff9800;
+    /*black*/
+    /*--color1: #E82F2B;*/
+    /*--color2: #A51A19;*/
+    /*--color3: #58110B;*/
+    /*--color4: #A5625F;*/
+    /*--color5: #0C0B0B;*/
+    /*WHITE*/
+    /*--color1: #F2F1F3;*/
+    /*--color2: #89878B;*/
+    /*--color3: #F48E91;*/
+    /*--color4: #F22F28;*/
+    /*--color5: #57575C;*/
+    --color1: #5bc0de;
+    --color2: #F48E91;
+    --color3: #ff9800;
+    --color4: #5e6f7c;
+    --color5: #57575C;
+}
+
+.show-bg {
+    background-color: black;
+    /*background-image: url("../img/edenLogo.png");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 860px;
+}
+
+.profileLink {
+    color: grey;
+    font-size: .65em;
+}
+
+.filter {
+    color: #01ff70;
+}
+
+.clickable {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #00b3ee;
+}
+
+.highlightHighest {
+    color: #01ff70;
+}
+
+.title {
+    color: snow;
+}
+
+.portrait {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.character {
+    float: left;
+    width: 75px;
+}
+
+.charbg {
+    /*display: block;*/
+    /*width: 100%;*/
+    /*background-color: transparent;*/
+    /*width:250px;height:180px;*/
+    /*background: url("https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/overlay-portrait.png");*/
+    background-image: url("https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/overlay-portrait.png");
+    /*background-repeat: no-repeat;*/
+}
+
+.newtab {
+    /*position: absolute;*/
+}
+
+.realName {
+    font-size: .75em;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+.heroName {
+    font-size: 1.2em;
+    color: #01ff70;
+}
+
+.heroCell {
+    min-width: 300px;
+}
+
+.headings th {
+    font-size: 0.55em;
+}
+
+.playHeroTable {
+    color: black;
+}
+
+.playHeroTable th {
+     width: 175px
+ }
+
+.playHeroTable td {
+    width: 75px
+}

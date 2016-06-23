@@ -1,0 +1,22 @@
+<table class="table table-inverse newtab">
+    <thead>
+    <tr ng-click="changeSortDir()" class="headings">
+        <th>Item ID</th>
+        <th>Item Name</th>
+        <th>Sell</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in Private.items | limitTo: 100">
+        <th>
+            {{item.item.name}}
+        </th>
+        <td>
+            {{item.item.id}}
+        </td>
+        <td>
+            {{item.price.sells.unit_price}}
+        </td>
+    </tr>
+    </tbody>
+</table>

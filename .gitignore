@@ -1,0 +1,7 @@
+.idea/*
+node.exe
+.git.old/*
+img/Thumbs.db
+node_modules/*
+lib/.idea/*
+json/edenoverwatch-43b4eeff33a6.json

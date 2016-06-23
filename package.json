@@ -1,0 +1,17 @@
+{
+  "name": "EdenGuildWars2",
+  "version": "0.0.1",
+  "description": "EdenGuildWars2",
+  "dependencies": {
+    "express": "*",
+    "angular": "*",
+    "socket.io": "*",
+    "bootstrap": "4.0.0-alpha.2",
+    "tether": "*",
+    "jquery": "*",
+    "font-awesome": "*",
+    "moment": "*",
+    "chance": "*",
+    "firebase": "*"
+  }
+}
